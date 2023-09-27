@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemanları</title>
+</head>
+<body>
+   <h1>Form Elemanları</h1>
+   <form action="user/update" method="post">
+    <label for="ad">Adınız:</label>
+    <input type="text" id="ad">
+    <br><br>
+
+    <label for="soyad">Soyadınız:</label>
+    <input type="text" id="soyad">
+    <br><br>
+
+    <label for="yas">Yaşınız:</label>
+    <input type="number" id="yas">
+    <br><br>
+
+    <label for="mail">E-Mail adresi:</label>
+    <input type="email" id="mail">
+    <br><br>
+
+    <label for="sifre">Şifreniz:</label>
+    <input type="password" id="sifre">
+    <br><br>
+
+    <label>Cinsiyet</label>
+    <br>
+
+    <label for="bay">Bay</label>
+    <input type="radio" id="bay" name="cinsiyet">
+    <br>
+
+    <label for="bayan">Bayan</label>
+    <input type="radio" id="bayan" name="cinsiyet">
+    <br><br>
+
+    <label>Hobileriniz</label>
+    <br>
+
+    <label for="oyun">Oyun</label>
+    <input type="checkbox" name="hobi" id="oyun">
+    <br>
+
+    <label for="spor">Spor</label>
+    <input type="checkbox" name="hobi" id="spor">
+    <br>
+
+    <label for="müzik">Müzik</label>
+    <input type="checkbox" name="hobi" id="müzik">
+    <br><br>
+
+    <label for="dogumtarihi">Doğum Tarihiniz:</label>
+    <input type="date" id="dogumtarihi">
+    <br><br>
+
+    <label for="renk">Sevdiğiniz renk</label>
+    <input type="color"  id="renk">
+    <br><br>
+
+    <label for="cv">CV nizi ekleyiniz</label>
+    <input type="file" id="cv">
+    <br><br>
+
+    <label for="dogumyeri">Doğum Yerinizi Seçiniz:</label>
+    <select  id="dogumyeri" >
+        <option value="0">Denizli</option>
+        <option value="1">Elazığ</option>
+        <option value="2">Aydın</option>
+        <option value="3">izmir</option>
+    </select>
+    <br><br>
+
+    <label for="mesaj">Mesajınız:</label>
+    <textarea  id="mesaj" cols="31" rows="11"></textarea>
+    <br><br>
+    <input type="button" value="Button">
+    <input type="submit" >
+    <input type="reset">
+
+
+
+
+
+
+
+
+   </form>
+</body>
+</html>
